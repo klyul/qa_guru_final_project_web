@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
+import org.openqa.selenium.By;
 import snippets.TestBaseWebMain;
 
 import static com.codeborne.selenide.Selenide.*;
@@ -50,5 +51,14 @@ public class MainPageTests extends TestBaseWebMain {
 
     }
 
+    @ParameterizedTest
+    @Tag("simple_sampler")
+    @Tag("bell")
+    void bellMenuTest(String value) {
+        open("https://bellintegrator.ru/");
+        $("#top-menu").shouldBe(Condition.interactable);
+        $("#top-menu").click();
 
+        $("")
+    }
 }
