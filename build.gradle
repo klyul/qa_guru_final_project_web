@@ -45,7 +45,7 @@ test {
     useJUnitPlatform()
     systemProperties(System.getProperties())
 }
-
+/*
 task autotest_dry_run(type: Test) {
 
     useJUnitPlatform {
@@ -71,7 +71,6 @@ task autotest_simple_local(type: Test) {
 
     systemProperties(System.getProperties())
 
-}
 
 task autotest_simple_api(type: Test) {
 
@@ -147,3 +146,5 @@ def printSystemProperties() {
     println("Property env: " + System.getProperty("env"))
 
 }
+
+*/

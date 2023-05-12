@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f19be48-d4f2-4742-882d-667c0e2ce2d2" name="Changes" comment="add MenuTests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/components/ContactUsForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/components/TopMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/config/WebConfigRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/TestBaseBint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/config/DefaultWebConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/config/OwnerWebConfigRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/snippets/TestBaseWebMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/snippets/TestBaseWebMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/web/MainPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/MainPageTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +75,7 @@
       <recent name="C:\Users\Yuliya\IdeaProjects\qa_guru_final_project_web\src\test\helpers" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.MainPageTests.feedbackFormTest01">
     <configuration name="MainPageTests.bellMenuTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -106,8 +99,80 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="MainPageTests.feedbackFormTest01" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;web.MainPageTests.feedbackFormTest01&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MainPageTests.menuTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;web.MainPageTests.menuTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MainPageTests.menuTest01" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;web.MainPageTests.menuTest01&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MainPageTests.feedbackFormTest01" />
+        <item itemvalue="Gradle.MainPageTests.menuTest" />
+        <item itemvalue="Gradle.MainPageTests.menuTest01" />
         <item itemvalue="Gradle.MainPageTests.bellMenuTest" />
       </list>
     </recent_temporary>
@@ -135,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683828845864</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add MenuTests">
+      <created>1683912898843</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683912898843</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

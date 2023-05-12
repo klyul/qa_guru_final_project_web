@@ -18,7 +18,7 @@ public class MainPageTests extends TestBaseBint {
 
     @Test
     @DisplayName("Проверяем часть меню сайта")
-    void menuTest01() {
+    void menuTest() {
         mainPage.openPage();
         mainPage.clickTopMenuButton();
         topMenu.menuItemsShouldBePresent();
