@@ -41,6 +41,8 @@ public class MainPageTests extends TestBaseBint {
         closeWindow();
     }
 
+    @Test
+    @DisplayName("Проверяем поиск")
     @ParameterizedTest
     @ValueSource(strings = {"акция", "новая", "услуг", "проверки", "условия", "команде", "тестирования", "клиентский", "опыт", "система"})
     void bellSearchTest(String value) {

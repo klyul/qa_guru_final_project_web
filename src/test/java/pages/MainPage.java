@@ -10,7 +10,6 @@ public class MainPage {
     SelenideElement topMenuButton = $("div#top-menu");
     SelenideElement contactUsButton = $("button#stay_connect_open");
 
-
     @Step("Открываем главную страницу")
     public void openPage() {
         open("/");
