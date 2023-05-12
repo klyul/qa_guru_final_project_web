@@ -1,7 +1,7 @@
 package snippets;
 
 import com.codeborne.selenide.logevents.SelenideLogger;
-import config.OwnerWebConfigRunner;
+import config.WebConfigRunner;
 import helpers.Attach;
 import helpers.TestLoggerHelper;
 import io.qameta.allure.selenide.AllureSelenide;
@@ -20,7 +20,7 @@ public class TestBaseWebMain {
     @BeforeAll
     static void setUp() {
         SelenideLogger.addListener("allure", new AllureSelenide());
-        new OwnerWebConfigRunner().runWebConfig();
+        new WebConfigRunner().runWebConfig();
         logSelenideMainConfigValues();
     }
 
