@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f19be48-d4f2-4742-882d-667c0e2ce2d2" name="Changes" comment="add Tests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SearchResultsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/VacanciesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/web/VacanciesTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/web/MainPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/MainPageTests.java" afterDir="false" />
@@ -49,9 +52,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$USER_HOME$/AppData/Local/Temp/Temp1_v120501.zip/v120501/src/test/java/config/HardcodedWebConfigRunner.java" root0="SKIP_INSPECTION" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -75,8 +75,8 @@
       <recent name="C:\Users\Yuliya\IdeaProjects\qa_guru_final_project_web\src\test\helpers" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MainPageTests.feedbackFormTest01">
-    <configuration name="MainPageTests.bellMenuTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.VacanciesTests.vacanciesPageOpeningTests">
+    <configuration name="MainPageTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -89,7 +89,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;web.MainPageTests.bellMenuTest&quot;" />
+            <option value="&quot;web.MainPageTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -168,12 +168,36 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="VacanciesTests.vacanciesPageOpeningTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;web.VacanciesTests.vacanciesPageOpeningTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MainPageTests.feedbackFormTest01" />
+        <item itemvalue="Gradle.VacanciesTests.vacanciesPageOpeningTests" />
+        <item itemvalue="Gradle.MainPageTests" />
         <item itemvalue="Gradle.MainPageTests.menuTest" />
+        <item itemvalue="Gradle.MainPageTests.feedbackFormTest01" />
         <item itemvalue="Gradle.MainPageTests.menuTest01" />
-        <item itemvalue="Gradle.MainPageTests.bellMenuTest" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683915760294</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add Tests">
+      <created>1683917115590</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683917115590</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

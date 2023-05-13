@@ -10,6 +10,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 import pages.MainPage;
+import pages.SearchResultsPage;
 
 import static com.codeborne.selenide.Selenide.*;
 
@@ -18,6 +19,7 @@ public class MainPageTests extends TestBaseBint {
     MainPage mainPage = new MainPage();
     TopMenu topMenu = new TopMenu();
     ContactUsForm contactUsForm = new ContactUsForm();
+    SearchResultsPage searchResultsPage = new SearchResultsPage();
 
 
     @Test
@@ -41,24 +43,16 @@ public class MainPageTests extends TestBaseBint {
         closeWindow();
     }
 
-    @Test
-    @DisplayName("Проверяем поиск")
+
+    @DisplayName("Проверяем отсутствие PHP warnings на странице результатов поиска")
     @ParameterizedTest
     @ValueSource(strings = {"акция", "новая", "услуг", "проверки", "условия", "команде", "тестирования", "клиентский", "опыт", "система"})
-    void bellSearchTest(String value) {
+    void bellSearchPhpWarningsTest(String value) {
 
         mainPage.openPage();
-        $("#search-open").shouldBe(Condition.interactable);
-        $("#search-open").click();
-
-        $("input[name=search]").sendKeys(value);
-        $("input[name=search]").pressEnter();
-
-        $$("h2").first().shouldHave(Condition.text("Поиск - " + value));
-        $$("h2").get(1).shouldHave(Condition.text("Результаты поиска"));
-
-        int warnings = $$x("//b[contains(text(),'Warning')]").size();
-        Assertions.assertEquals(0, warnings, "Не должно быть PHP warnings");
+        mainPage.searchFromMainPage(value);
+        searchResultsPage.shouldHaveSearchTitles(value);
+        Assertions.assertEquals(0, searchResultsPage.numberOfPhpWarnings(), "Не должно быть PHP warnings");
 
     }
 }
