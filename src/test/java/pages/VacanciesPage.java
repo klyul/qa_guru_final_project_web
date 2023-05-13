@@ -1,13 +1,14 @@
 package pages;
 
+import com.codeborne.selenide.CollectionCondition;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.interactable;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selectors.byText;
+import static com.codeborne.selenide.Selenide.*;
 
 public class VacanciesPage {
 
@@ -35,6 +36,16 @@ SelenideElement сheckboxRemoteVacancies = $("input#filter_only_remote_");
 
     }
 
-    @Step("Проверяем открытие страницы с вакансиями")
+    @Step("Проверяем открытие вакансий по специализации Аналитики")
+    public void searchAnalyticVacancies(String value) {
+        specialisationField.click();
+        specialisationField.$(byText(value)).click();
+        searchButton.click();
+    }
 
+    @Step("Проверка, что вакансии имеют типу {0}")
+    public void checkFoundVacanciesTypeByText(String value) {
+        $$("tbody#vacancy_table tr td:nth-child(2)").shouldHave(CollectionCondition.sizeGreaterThan(0));
+        $$("tbody#vacancy_table tr td:nth-child(2)").texts().stream().allMatch(e -> e.equals(value));
+    }
 }

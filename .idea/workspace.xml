@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f19be48-d4f2-4742-882d-667c0e2ce2d2" name="Changes" comment="add Tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SearchResultsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/VacanciesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/web/VacanciesTests.java" afterDir="false" />
+    <list default="true" id="2f19be48-d4f2-4742-882d-667c0e2ce2d2" name="Changes" comment="add VacanciesTests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/web/MainPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/MainPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/VacanciesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/VacanciesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/VacanciesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/VacanciesTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +72,7 @@
       <recent name="C:\Users\Yuliya\IdeaProjects\qa_guru_final_project_web\src\test\helpers" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.VacanciesTests.vacanciesPageOpeningTests">
+  <component name="RunManager" selected="Gradle.VacanciesTests.checkSearchByVacationType">
     <configuration name="MainPageTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -145,7 +142,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MainPageTests.menuTest01" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="VacanciesTests.checkSearchByVacationType" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -158,7 +155,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;web.MainPageTests.menuTest01&quot;" />
+            <option value="&quot;web.VacanciesTests.checkSearchByVacationType&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -193,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.VacanciesTests.checkSearchByVacationType" />
         <item itemvalue="Gradle.VacanciesTests.vacanciesPageOpeningTests" />
         <item itemvalue="Gradle.MainPageTests" />
         <item itemvalue="Gradle.MainPageTests.menuTest" />
         <item itemvalue="Gradle.MainPageTests.feedbackFormTest01" />
-        <item itemvalue="Gradle.MainPageTests.menuTest01" />
       </list>
     </recent_temporary>
   </component>
@@ -252,13 +249,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683917115590</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add VacanciesTests">
+      <created>1683977552465</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683977552465</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add MainPageTests" />
     <MESSAGE value="add MenuTests" />
     <MESSAGE value="add Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Tests" />
+    <MESSAGE value="add VacanciesTests" />
+    <option name="LAST_COMMIT_MESSAGE" value="add VacanciesTests" />
   </component>
 </project>
