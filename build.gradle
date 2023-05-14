@@ -26,6 +26,13 @@ repositories {
     mavenCentral()
 }
 
+compileJava {
+    options.encoding = 'UTF-8'
+}
+compileTestJava {
+    options.encoding = 'UTF-8'
+}
+
 dependencies {
     testImplementation(
             "io.qameta.allure:allure-rest-assured:$allureVersion",

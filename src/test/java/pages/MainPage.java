@@ -6,7 +6,8 @@ import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
-import static helpers.Attach.GeneralMethods.setBannerCookie;
+import static helpers.GeneralMethods.setBannerCookie;
+
 
 public class MainPage {
     SelenideElement topMenuButton = $("div#top-menu");
