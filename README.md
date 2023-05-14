@@ -28,7 +28,7 @@
 
 ## :hammer_and_wrench: <a id="tools"></a> Технологии и инструменты
 <p align="center">
-<a href="https://www.jetbrains.com/idea/"><img src="images/Intelij_IDEA.svg" width="50" height="50"  alt="IDEA"/></a>
+<a href="https://www.jetbrains.com/idea/"><img src="images/Idea.svg" width="50" height="50"  alt="IDEA"/></a>
 <a href="https://www.java.com/"><img src="images/Java.svg" width="50" height="50"  alt="Java"/></a>
 <a href="https://github.com/"><img src="images/Github.svg" width="50" height="50"  alt="Github"/></a>
 <a href="https://junit.org/junit5/"><img src="images/Junit5.svg" width="50" height="50"  alt="JUnit 5"/></a>
