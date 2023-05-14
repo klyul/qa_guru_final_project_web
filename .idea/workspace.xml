@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2f19be48-d4f2-4742-882d-667c0e2ce2d2" name="Changes" comment="add ContactPage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ContactPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ContactPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AutomatedTestingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AutomatedTestingPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/web/OtherPagesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/OtherPagesTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,8 +76,8 @@
       <recent name="C:\Users\Yuliya\IdeaProjects\qa_guru_final_project_web\src\test\helpers" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.OtherPagesTests.checkOpeningContactPage">
-    <configuration name="MainPageTests.menuTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.OtherPagesTests.checkOpeningAutomatedTestingPage">
+    <configuration name="OtherPagesTests.checkOpeningAutomatedTestingPage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -90,7 +90,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;web.MainPageTests.menuTest&quot;" />
+            <option value="&quot;web.OtherPagesTests.checkOpeningAutomatedTestingPage&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -194,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.OtherPagesTests.checkOpeningAutomatedTestingPage" />
         <item itemvalue="Gradle.OtherPagesTests.checkOpeningContactPage" />
         <item itemvalue="Gradle.OtherPagesTests.checkOpeningTrainingPage" />
         <item itemvalue="Gradle.VacanciesTests.checkMainElementOfVacancyPage" />
         <item itemvalue="Gradle.VacanciesTests.checkSearchByLocationMoscow" />
-        <item itemvalue="Gradle.MainPageTests.menuTest" />
       </list>
     </recent_temporary>
   </component>
@@ -365,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684081889505</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add ContactPage">
+      <created>1684083266760</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1684083266760</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
