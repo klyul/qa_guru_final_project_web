@@ -12,6 +12,7 @@ import static com.codeborne.selenide.Condition.interactable;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 import static helpers.GeneralMethods.setBannerCookie;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class VacanciesPage {
@@ -23,6 +24,9 @@ SelenideElement cityField = $("[data-id='select_city_id']");
 SelenideElement searchButton = $("button#search_vacancy");
 SelenideElement checkboxOnlyHotVacancies = $("input#filter_only_hot_");
 SelenideElement сheckboxRemoteVacancies = $("input#filter_only_remote_");
+SelenideElement locationField = $("[data-id='select_city_id']");
+SelenideElement locationDropdown = $("ul[aria-expanded=\"true\"]");
+SelenideElement detailedLink = $x("//a[contains(text(),'Подробнее')]");
 
 
     @Step("Проверяем открытие страницы с вакансиями")
@@ -54,5 +58,17 @@ SelenideElement сheckboxRemoteVacancies = $("input#filter_only_remote_");
         $$("tbody#vacancy_table tr td:nth-child(2)").shouldHave(CollectionCondition.sizeGreaterThan(0));
         List<String> tableTexts = $$("tbody#vacancy_table tr td:nth-child(2)").texts();
         assertTrue(tableTexts.stream().allMatch(e -> e.equals(value)));
+    }
+
+    @Step("Проверяем открытие вакансий по локации Москва")
+    public void searchVacanciesByCity(String value) {
+        locationField.click();
+        locationDropdown.$(byText(value)).click();
+        searchButton.click();
+    }
+
+    @Step("Открываем первую из вакансий по ссылке Подробнее")
+    public void openFirstVacancy() {
+        detailedLink.click();
     }
 }
