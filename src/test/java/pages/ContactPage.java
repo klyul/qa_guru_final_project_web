@@ -8,8 +8,8 @@ import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.Condition.interactable;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.Selenide.$x;
 import static helpers.GeneralMethods.setBannerCookie;
 
 public class ContactPage {
@@ -31,6 +31,19 @@ public class ContactPage {
         submitButton.shouldBe(interactable);
         officeDescription.shouldBe(visible);
         Assertions.assertEquals(officeDescription.text(),"Московский офис");
-        
     }
+
+    @Step("Кликаем на имя города с филиалом, {0}")
+    public void clickOnCityName(String value) {
+        String cityLocator = String.format("//div[contains(@class,'visible-lg')]//a[contains(text(),'%s')]", value);
+        $x(cityLocator).shouldBe(visible);
+        $x(cityLocator).click();
+    }
+
+
+    @Step("Проверяем, что появилась информация о конкретном филиале {0}")
+    public void checkOfficeName(String value) {
+        Assertions.assertEquals(value, officeDescription.text());
+    }
+
 }

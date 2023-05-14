@@ -9,8 +9,6 @@
 
 * <a href="#cases">Реализованные проверки</a>
 
-* <a href="#integrations">Подключенные интеграции</a>
-
 * <a href="#console">Запуск из терминала</a>
 
 * <a href="#jenkins">Сборка в Jenkins</a>

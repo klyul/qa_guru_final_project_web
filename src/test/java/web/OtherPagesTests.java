@@ -38,4 +38,11 @@ public class OtherPagesTests extends TestBaseBint {
         automatedTestingPage.openPage();
         automatedTestingPage.mainElementsShouldBePresent();
     }
+    @Test
+    @DisplayName("Проверяем что по клику на конкретный город открывается конкретный филиал")
+    void checkShowingParticularOffice() {
+        contactPage.openPage();
+        contactPage.clickOnCityName("Пенза");
+        contactPage.checkOfficeName("Пензенский офис");
+    }
 }
