@@ -1,2 +1,2 @@
-# qa_guru_final_project_web
-qa_guru_final_project_web
+# Проект по автоматизации тестирования для Bell Integrator
+<a target="_blank" href="https://bellintegrator.ru/">Cайт Bell Integrator</a>
