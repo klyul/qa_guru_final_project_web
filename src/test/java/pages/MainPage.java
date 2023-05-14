@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
+import static helpers.Attach.GeneralMethods.setBannerCookie;
 
 public class MainPage {
     SelenideElement topMenuButton = $("div#top-menu");
@@ -16,7 +17,9 @@ public class MainPage {
 
     @Step("Открываем главную страницу")
     public void openPage() {
+        setBannerCookie();
         open("/");
+
     }
 
     @Step("Кликаем на главное меню")

@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2f19be48-d4f2-4742-882d-667c0e2ce2d2" name="Changes" comment="add VacanciesTests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/VacanciesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/VacanciesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/web/VacanciesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/VacanciesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/helpers/Attach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helpers/Attach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +72,7 @@
       <recent name="C:\Users\Yuliya\IdeaProjects\qa_guru_final_project_web\src\test\helpers" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.VacanciesTests.checkSearchByVacationType">
+  <component name="RunManager" selected="Gradle.MainPageTests.feedbackFormTest01">
     <configuration name="MainPageTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -190,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MainPageTests.feedbackFormTest01" />
+        <item itemvalue="Gradle.MainPageTests.menuTest" />
         <item itemvalue="Gradle.VacanciesTests.checkSearchByVacationType" />
         <item itemvalue="Gradle.VacanciesTests.vacanciesPageOpeningTests" />
         <item itemvalue="Gradle.MainPageTests" />
-        <item itemvalue="Gradle.MainPageTests.menuTest" />
-        <item itemvalue="Gradle.MainPageTests.feedbackFormTest01" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683981405087</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add VacanciesTests">
+      <created>1683981419127</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683981419127</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
