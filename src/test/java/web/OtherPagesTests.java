@@ -25,7 +25,6 @@ public class OtherPagesTests extends TestBaseBint {
     void checkOpeningContactPage() {
         contactPage.openPage();
         contactPage.mainElementsShouldBePresent();
-        contactPage.officeDescription(assertNotNull(););
 
 
     }
