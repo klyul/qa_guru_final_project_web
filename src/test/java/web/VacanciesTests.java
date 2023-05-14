@@ -5,11 +5,13 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import pages.VacanciesPage;
+import pages.VacanciesResultPage;
 
 public class VacanciesTests extends TestBaseBint {
 
 
     VacanciesPage vacanciesPage = new VacanciesPage();
+    VacanciesResultPage vacanciesResultPage = new VacanciesResultPage();
 
     @BeforeEach
     void openVacanciesPage() {
@@ -28,6 +30,14 @@ public class VacanciesTests extends TestBaseBint {
         vacanciesPage.searchAnalyticVacancies("Аналитики");
         vacanciesPage.checkFoundVacanciesTypeByText("Аналитики");
 
+
+
+    }
+
+    @Test
+    @DisplayName("Проверяем работу фильтра с локацией Москва")
+    void checkSearchByLocationMoscowType() {
+        vacanciesResultPage.searchMoscowVacancies("Москва");
 
     }
 }

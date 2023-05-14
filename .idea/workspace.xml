@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2f19be48-d4f2-4742-882d-667c0e2ce2d2" name="Changes" comment="add VacanciesTests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/VacanciesResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/VacanciesResultPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/web/VacanciesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/VacanciesTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,30 +76,7 @@
       <recent name="C:\Users\Yuliya\IdeaProjects\qa_guru_final_project_web\src\test\helpers" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.VacanciesTests.checkSearchByVacationType">
-    <configuration name="MainPageTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;web.MainPageTests&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.VacanciesTests.checkSearchByLocationMoscowType">
     <configuration name="MainPageTests.feedbackFormTest01" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -136,6 +114,29 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;web.MainPageTests.menuTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="VacanciesTests.checkSearchByLocationMoscowType" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;web.VacanciesTests.checkSearchByLocationMoscowType&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -193,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.VacanciesTests.checkSearchByLocationMoscowType" />
         <item itemvalue="Gradle.VacanciesTests.checkSearchByVacationType" />
         <item itemvalue="Gradle.VacanciesTests.vacanciesPageOpeningTests" />
         <item itemvalue="Gradle.MainPageTests.feedbackFormTest01" />
         <item itemvalue="Gradle.MainPageTests.menuTest" />
-        <item itemvalue="Gradle.MainPageTests" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684060281178</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add VacanciesTests">
+      <created>1684060743885</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684060743885</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
