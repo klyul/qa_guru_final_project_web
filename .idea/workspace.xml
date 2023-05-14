@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f19be48-d4f2-4742-882d-667c0e2ce2d2" name="Changes" comment="add ContactPage">
+    <list default="true" id="2f19be48-d4f2-4742-882d-667c0e2ce2d2" name="Changes" comment="add readme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AutomatedTestingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AutomatedTestingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/web/OtherPagesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/OtherPagesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -372,7 +371,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684083266760</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add AutomatedTestingPage">
+      <created>1684085354977</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1684085354977</updated>
+    </task>
+    <task id="LOCAL-00025" summary="add readme">
+      <created>1684085514179</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1684085514179</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -383,8 +396,9 @@
     <MESSAGE value="add VacanciesResultPage" />
     <MESSAGE value="add readme description" />
     <MESSAGE value="add TrainingPage" />
-    <MESSAGE value="add readme" />
     <MESSAGE value="add ContactPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ContactPage" />
+    <MESSAGE value="add AutomatedTestingPage" />
+    <MESSAGE value="add readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="add readme" />
   </component>
 </project>
