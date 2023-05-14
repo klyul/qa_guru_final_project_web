@@ -13,7 +13,7 @@ import static helpers.GeneralMethods.setBannerCookie;
 
 public class ContactPage {
     SelenideElement branches = $("div.block-gray ul[role=tablist]");
-    SelenideElement cityDescription = $("ul[aria-expanded=\"true\"]");
+    SelenideElement officeDescription = $("div.tab-pane.active h3");
     SelenideElement submitButton = $("#submit_your_app_open");
 
 
@@ -28,6 +28,6 @@ public class ContactPage {
     public void mainElementsShouldBePresent(String value) {
         branches.shouldBe(visible);
         submitButton.shouldBe(interactable);
+        officeDescription.shouldBe(visible);
     }
 }
-cityDescription.$(byText(value)).click();

@@ -1,10 +1,12 @@
 package web;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import pages.ContactPage;
 import pages.TrainingPage;
 
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class OtherPagesTests extends TestBaseBint {
@@ -22,7 +24,9 @@ public class OtherPagesTests extends TestBaseBint {
     @DisplayName("Проверяем открытие страницы с контактами и присутствие её элементов")
     void checkOpeningContactPage() {
         contactPage.openPage();
-        assertTrue(cityDescription.text().contains(value));
+        contactPage.mainElementsShouldBePresent();
+        contactPage.officeDescription(assertNotNull(););
+
 
     }
 }
