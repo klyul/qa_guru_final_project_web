@@ -12,7 +12,7 @@ import static com.codeborne.selenide.Selenide.open;
 import static helpers.GeneralMethods.setBannerCookie;
 
 public class ContactPage {
-    SelenideElement branches = $(".block-gray");
+    SelenideElement branches = $("div.block-gray ul[role=tablist]");
     SelenideElement cityDescription = $("ul[aria-expanded=\"true\"]");
     SelenideElement submitButton = $("#submit_your_app_open");
 
@@ -24,10 +24,10 @@ public class ContactPage {
         open("/index.php?route=information/contact");
     }
 
-    @Step("Проверяем главные элементы страницы с обучением")
-    void mainElementsShouldBePresent(String value) {
+    @Step("Проверяем главные элементы страницы с контактами")
+    public void mainElementsShouldBePresent(String value) {
         branches.shouldBe(visible);
-        cityDescription.$(byText(value)).click();
         submitButton.shouldBe(interactable);
     }
 }
+cityDescription.$(byText(value)).click();
