@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f19be48-d4f2-4742-882d-667c0e2ce2d2" name="Changes" comment="add VacanciesTests">
+    <list default="true" id="2f19be48-d4f2-4742-882d-667c0e2ce2d2" name="Changes" comment="add VacanciesResultPage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/VacanciesResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/VacanciesResultPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/web/VacanciesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/web/VacanciesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -295,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684060743885</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add VacanciesResultPage">
+      <created>1684062799257</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1684062799257</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -303,6 +309,7 @@
     <MESSAGE value="add MenuTests" />
     <MESSAGE value="add Tests" />
     <MESSAGE value="add VacanciesTests" />
-    <option name="LAST_COMMIT_MESSAGE" value="add VacanciesTests" />
+    <MESSAGE value="add VacanciesResultPage" />
+    <option name="LAST_COMMIT_MESSAGE" value="add VacanciesResultPage" />
   </component>
 </project>
