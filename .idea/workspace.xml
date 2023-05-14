@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f19be48-d4f2-4742-882d-667c0e2ce2d2" name="Changes" comment="add readme" />
+    <list default="true" id="2f19be48-d4f2-4742-882d-667c0e2ce2d2" name="Changes" comment="add readme">
+      <change beforePath="$PROJECT_DIR$/images/images/Allure.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/images/Allure_TO.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/images/GitHub.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/images/Gradle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/images/Idea.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/images/Java.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/images/Jenkins.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/images/Junit5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/images/Selenide.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/images/Selenoid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/images/Telegram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/images/jira-logo.svg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -410,7 +423,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684087185722</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="add readme">
+      <created>1684087711536</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1684087711536</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add readme">
+      <created>1684087816502</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1684087816502</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
