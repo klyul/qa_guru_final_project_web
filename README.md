@@ -10,7 +10,7 @@
 * <a href="#cases">Реализованные проверки</a>
 
 * <a href="#console">Запуск из терминала</a>
-
+  
 * <a href="#jenkins">Сборка в Jenkins</a>
 
 * <a href="#allure">Allure отчеты</a>
@@ -47,3 +47,8 @@
 * Проверка фильтров с вакансиями.
 
 ## :computer: Запуск из терминала
+```bash
+ gradle clean autotest_bell_remote
+```
+## Сборка в Jenkins
+

@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f19be48-d4f2-4742-882d-667c0e2ce2d2" name="Changes" comment="add tag bell">
+    <list default="true" id="2f19be48-d4f2-4742-882d-667c0e2ce2d2" name="Changes" comment="add test main page">
+      <change afterPath="$PROJECT_DIR$/src/test/java/config/DefaultWebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/config/OwnerWebConfigRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/configs/default.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/configs/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/configs/remote.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +35,17 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="qa_guru_final_project_web" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="qa_guru_final_project_web" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="qa_guru_final_project_web" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -489,7 +506,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684130823011</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="add test main page">
+      <created>1684132272988</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1684132272988</updated>
+    </task>
+    <task id="LOCAL-00042" summary="add test main page">
+      <created>1684133148719</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1684133148719</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -505,6 +536,7 @@
     <MESSAGE value="add readme" />
     <MESSAGE value="add readme,telegram notif" />
     <MESSAGE value="add tag bell" />
-    <option name="LAST_COMMIT_MESSAGE" value="add tag bell" />
+    <MESSAGE value="add test main page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test main page" />
   </component>
 </project>
