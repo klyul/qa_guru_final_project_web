@@ -57,7 +57,7 @@
 </p>
 
 
-## Allure отчеты
+## <a href="https://github.com/allure-framework/allure2"><img src="images/Allure.svg" width="50" height="50"  alt="Allure"/></a> Allure отчеты
 :information_source: По итогам сборки в Jenkins собирается отчет в Allure Report
 > Для просмотра необходимо залогиниться в Jenkins
 * Подключено добавление в отчет:
@@ -71,13 +71,13 @@
 </p>
 
 
-## Отчёт в Telegram 
+## <img src="images/Telegram.svg"> Отчёт в Telegram 
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
 
 <p align="center">
 <img src="images/tgbot.png">
 
-## Интеграция с Allure TestOps
+## <img src="images/Allure_TO.svg"> Интеграция с Allure TestOps
 
-## Интеграция с Jira
+## <img src="images/jira-logo.svg"> Интеграция с Jira
 
