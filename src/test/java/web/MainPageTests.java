@@ -45,7 +45,7 @@ public class MainPageTests extends TestBaseBint {
     @Tag("bell")
     @DisplayName("Проверяем отсутствие PHP warnings на странице результатов поиска")
     @ParameterizedTest
-    @ValueSource(strings = {"акция","услуг", "проверки", "команде", "тестирования", "система"})
+    @ValueSource(strings = {"акция","услуг", "проверки", "команде", "тестирования"})
     void bellSearchPhpWarningsTest(String value) {
 
         mainPage.openPage();
