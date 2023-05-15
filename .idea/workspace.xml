@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f19be48-d4f2-4742-882d-667c0e2ce2d2" name="Changes" comment="add allurelisteners">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -233,20 +232,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683780940029</updated>
-    </task>
-    <task id="LOCAL-00001" summary="add MainPageTests">
-      <created>1683782622431</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1683782622431</updated>
-    </task>
-    <task id="LOCAL-00002" summary="add MenuTests">
-      <created>1683828845864</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1683828845864</updated>
     </task>
     <task id="LOCAL-00003" summary="add MenuTests">
       <created>1683912898843</created>
@@ -577,7 +562,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684172266897</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="add allurelisteners">
+      <created>1684173150273</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1684173150273</updated>
+    </task>
+    <task id="LOCAL-00051" summary="add allurelisteners">
+      <created>1684173190567</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1684173190567</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

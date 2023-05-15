@@ -21,8 +21,6 @@
 
 * <a href="#jira">Интеграция с Jira</a>
 
-* <a href="#video">Пример прогона теста в Selenoid</a>
-
 
 ## :hammer_and_wrench: <a id="tools"></a> Технологии и инструменты
 <p align="center">
@@ -50,6 +48,7 @@
 ```bash
  gradle clean autotest_bell_remote
 ```
+
 ## Сборка в [Jenkins](https://jenkins.autotests.cloud/job/018_klyul_Diplom_Web/)
 
 Для запуска сборки необходимо перейти в раздел <code><strong>*Собрать с параметрами*</strong></code> и нажать кнопку <code><strong>*Собрать*</strong></code>.
@@ -77,3 +76,8 @@
 
 <p align="center">
 <img src="images/tgbot.png">
+
+## Интеграция с Allure TestOps
+
+## Интеграция с Jira
+
