@@ -70,6 +70,8 @@
 <img src="images/allurereport1.png">
 <img src="images/allurereport2.png">
 </p>
+
+
 ## Отчёт в Telegram 
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
 
