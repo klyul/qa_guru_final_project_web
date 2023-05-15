@@ -3,25 +3,26 @@ package web;
 import config.OwnerWebConfigRunner;
 import config.WebConfigRunner;
 import helpers.Attach;
+import helpers.TestLoggerHelper;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
-
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class TestBaseBint {
-    protected void logException(Exception e) {
-        logger.info(e.getMessage());
-        e.printStackTrace();
-    }
+    static final Logger logger = LoggerFactory.getLogger(TestBaseBint.class);
     @BeforeAll
     static void setUp() {
         new OwnerWebConfigRunner().runWebConfig();
     }
+    protected void logException(Exception e) {
+        logger.info(e.getMessage());
+        e.printStackTrace();
+    }
+
 
     @AfterEach
     void addAttachments() {
-        Attach.attachAsText("My custom log", TestLoggerHelper.getCustomLogs());
-
-        // TODO: Доделать чтобы не сыпалось исключений с dryRun независимо от вариантов запуска.
 
         try {
             Attach.screenshotAs("Last screen");
@@ -51,4 +52,3 @@ public class TestBaseBint {
 }
 
 
-}
