@@ -128,7 +128,7 @@ task autotest_bell_local(type: Test) {
     systemProperties(System.getProperties())
 
 }
-
+*/
 task autotest_bell_remote(type: Test) {
 
     useJUnitPlatform {
@@ -154,4 +154,3 @@ def printSystemProperties() {
 
 }
 
-*/
