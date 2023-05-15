@@ -71,7 +71,7 @@
 </p>
 
 
-## <img src="images/Telegram.svg"> Отчёт в Telegram 
+## <a href="http://www.w3.org/2000/svg"><img src="images/Telegram.svg"> Отчёт в Telegram 
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
 
 <p align="center">
