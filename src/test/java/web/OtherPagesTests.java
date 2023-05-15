@@ -2,6 +2,7 @@ package web;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.AutomatedTestingPage;
 import pages.ContactPage;
@@ -17,6 +18,7 @@ public class OtherPagesTests extends TestBaseBint {
 
 
     @Test
+    @Tag("bell")
     @DisplayName("Проверяем открытие страницы с обучением и присутствие её элементов")
     void checkOpeningTrainingPage() {
         trainingPage.openPage();
@@ -24,6 +26,7 @@ public class OtherPagesTests extends TestBaseBint {
     }
 
     @Test
+    @Tag("bell")
     @DisplayName("Проверяем открытие страницы с контактами и присутствие её элементов")
     void checkOpeningContactPage() {
         contactPage.openPage();
@@ -33,12 +36,14 @@ public class OtherPagesTests extends TestBaseBint {
     }
 
     @Test
+    @Tag("bell")
     @DisplayName("Проверяем открытие страницы с автоматизированным тестированием и присутствие её элементов")
     void checkOpeningAutomatedTestingPage() {
         automatedTestingPage.openPage();
         automatedTestingPage.mainElementsShouldBePresent();
     }
     @Test
+    @Tag("bell")
     @DisplayName("Проверяем что по клику на конкретный город открывается конкретный филиал")
     void checkShowingParticularOffice() {
         contactPage.openPage();

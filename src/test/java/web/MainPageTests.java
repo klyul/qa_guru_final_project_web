@@ -3,10 +3,7 @@ package web;
 import com.codeborne.selenide.Condition;
 import components.ContactUsForm;
 import components.TopMenu;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 import pages.MainPage;
@@ -23,6 +20,7 @@ public class MainPageTests extends TestBaseBint {
 
 
     @Test
+    @Tag("bell")
     @DisplayName("Проверяем часть меню сайта")
     void menuTest() {
         mainPage.openPage();
@@ -31,6 +29,7 @@ public class MainPageTests extends TestBaseBint {
     }
 
     @Test
+    @Tag("bell")
     @DisplayName("Проверяем часть формы обратной связи")
     void feedbackFormTest01() {
         mainPage.openPage();
@@ -43,7 +42,7 @@ public class MainPageTests extends TestBaseBint {
         closeWindow();
     }
 
-
+    @Tag("bell")
     @DisplayName("Проверяем отсутствие PHP warnings на странице результатов поиска")
     @ParameterizedTest
     @ValueSource(strings = {"акция", "новая", "услуг", "проверки", "условия", "команде", "тестирования", "клиентский", "опыт", "система"})
