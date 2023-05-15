@@ -71,13 +71,13 @@
 </p>
 
 
-## <a href="http://www.w3.org/2000/svg"><img src="images/Telegram.svg"> width="50" height="50" alt="Telegram"/></a> Отчёт в Telegram 
+## Отчёт в Telegram 
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
 
 <p align="center">
 <img src="images/tgbot.png">
 
-## <img src="images/Allure_TO.svg"> width="50" height="50" Интеграция с Allure TestOps
+## Интеграция с Allure TestOps
 
-## <img src="images/jira-logo.svg"> width="50" height="50" Интеграция с Jira
+## Интеграция с Jira
 
