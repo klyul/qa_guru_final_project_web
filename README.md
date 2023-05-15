@@ -50,9 +50,9 @@
 ```bash
  gradle clean autotest_bell_remote
 ```
-## Сборка в Jenkins
+## Сборка в [Jenkins](https://jenkins.autotests.cloud/job/018_klyul_Diplom_Web/)
 <p align="center">
-
+Для запуска сборки необходимо перейти в раздел <code><strong>*Собрать с параметрами*</strong></code> и нажать кнопку <code><strong>*Собрать*</strong></code>.
 <a href="https://jenkins.autotests.cloud/job/018_klyul_Diplom_Web/#"><img src="images/jenkins.png" alt="jenkins"/></a>
 </p>
 

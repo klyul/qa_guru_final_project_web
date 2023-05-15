@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f19be48-d4f2-4742-882d-667c0e2ce2d2" name="Changes" comment="add OwnerWebConfigRunner, DefaultWebConfig">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="2f19be48-d4f2-4742-882d-667c0e2ce2d2" name="Changes" comment="add readme" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -528,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684169212323</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="add readme">
+      <created>1684169883044</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1684169883044</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -541,11 +546,11 @@
     <MESSAGE value="add TrainingPage" />
     <MESSAGE value="add ContactPage" />
     <MESSAGE value="add AutomatedTestingPage" />
-    <MESSAGE value="add readme" />
     <MESSAGE value="add readme,telegram notif" />
     <MESSAGE value="add tag bell" />
     <MESSAGE value="add test main page" />
     <MESSAGE value="add OwnerWebConfigRunner, DefaultWebConfig" />
-    <option name="LAST_COMMIT_MESSAGE" value="add OwnerWebConfigRunner, DefaultWebConfig" />
+    <MESSAGE value="add readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="add readme" />
   </component>
 </project>
