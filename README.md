@@ -52,3 +52,7 @@
 ```
 ## Сборка в Jenkins
 
+
+## Allure отчеты
+
+## Отчёт в Telegram 

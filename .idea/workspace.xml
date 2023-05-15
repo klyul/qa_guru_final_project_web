@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f19be48-d4f2-4742-882d-667c0e2ce2d2" name="Changes" comment="add test main page">
-      <change afterPath="$PROJECT_DIR$/src/test/java/config/DefaultWebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/config/OwnerWebConfigRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/configs/default.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/configs/local.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/configs/remote.properties" afterDir="false" />
+    <list default="true" id="2f19be48-d4f2-4742-882d-667c0e2ce2d2" name="Changes" comment="add OwnerWebConfigRunner, DefaultWebConfig">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -520,7 +515,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684133148719</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="add OwnerWebConfigRunner, DefaultWebConfig">
+      <created>1684167356817</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1684167356817</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -537,6 +539,7 @@
     <MESSAGE value="add readme,telegram notif" />
     <MESSAGE value="add tag bell" />
     <MESSAGE value="add test main page" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test main page" />
+    <MESSAGE value="add OwnerWebConfigRunner, DefaultWebConfig" />
+    <option name="LAST_COMMIT_MESSAGE" value="add OwnerWebConfigRunner, DefaultWebConfig" />
   </component>
 </project>
