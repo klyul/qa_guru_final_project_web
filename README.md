@@ -51,8 +51,13 @@
  gradle clean autotest_bell_remote
 ```
 ## Сборка в Jenkins
+<p align="center">
+
+<a href="https://jenkins.autotests.cloud/job/018_klyul_Diplom_Web/#"><img src="images/jenkins.png" alt="jenkins"/></a>
+</p>
 
 
 ## Allure отчеты
 
 ## Отчёт в Telegram 
+
