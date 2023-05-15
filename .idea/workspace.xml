@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f19be48-d4f2-4742-882d-667c0e2ce2d2" name="Changes" comment="add allurelisteners">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="2f19be48-d4f2-4742-882d-667c0e2ce2d2" name="Changes" comment="add fixed readme" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -232,13 +230,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683780940029</updated>
-    </task>
-    <task id="LOCAL-00003" summary="add MenuTests">
-      <created>1683912898843</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1683912898843</updated>
     </task>
     <task id="LOCAL-00004" summary="add Tests">
       <created>1683914770980</created>
@@ -576,7 +567,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684173190567</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="add fixed readme">
+      <created>1684174158423</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1684174158423</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -595,6 +593,7 @@
     <MESSAGE value="add OwnerWebConfigRunner, DefaultWebConfig" />
     <MESSAGE value="add readme" />
     <MESSAGE value="add allurelisteners" />
-    <option name="LAST_COMMIT_MESSAGE" value="add allurelisteners" />
+    <MESSAGE value="add fixed readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="add fixed readme" />
   </component>
 </project>
