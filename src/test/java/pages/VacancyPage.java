@@ -12,10 +12,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class VacancyPage {
 
-    SelenideElement citiesLine = $("p.careers_place");
-    SelenideElement requirementsLine = $x("//p[contains(text(),'Требования')]");
-    SelenideElement responsibilitiesLine = $x("//p[contains(text(),'Обязанности')]");
-    SelenideElement conditionsLine = $x("//p[contains(text(),'Условия')]");
+    private final SelenideElement citiesLine = $("p.careers_place");
+    private final SelenideElement requirementsLine = $x("//p[contains(text(),'Требования')]");
+    private final SelenideElement responsibilitiesLine = $x("//p[contains(text(),'Обязанности')]");
+    private final SelenideElement conditionsLine = $x("//p[contains(text(),'Условия')]");
 
 
     @Step("Проверяем, что присутствуют главные элементы на странице вакансии")

@@ -10,10 +10,10 @@ import static helpers.GeneralMethods.setBannerCookie;
 
 
 public class MainPage {
-    SelenideElement topMenuButton = $("div#top-menu");
-    SelenideElement contactUsButton = $("button#stay_connect_open");
-    SelenideElement topSearchButton = $("#search-open");
-    SelenideElement topSearchInput = $("input[name=search]");
+    private final SelenideElement topMenuButton = $("div#top-menu");
+    private final SelenideElement contactUsButton = $("button#stay_connect_open");
+    private final SelenideElement topSearchButton = $("#search-open");
+    private final SelenideElement topSearchInput = $("input[name=search]");
 
 
     @Step("Открываем главную страницу")

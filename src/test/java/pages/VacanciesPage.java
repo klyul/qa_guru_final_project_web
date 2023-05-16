@@ -17,16 +17,16 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class VacanciesPage {
 
-SelenideElement  searchInput = $("input#search_vacancy");
-SelenideElement specialisationField = $("[data-id='select_group_id']");
-SelenideElement specializationDropdown = $("ul[aria-expanded=\"true\"]");
-SelenideElement cityField = $("[data-id='select_city_id']");
-SelenideElement searchButton = $("button#search_vacancy");
-SelenideElement checkboxOnlyHotVacancies = $("input#filter_only_hot_");
-SelenideElement сheckboxRemoteVacancies = $("input#filter_only_remote_");
-SelenideElement locationField = $("[data-id='select_city_id']");
-SelenideElement locationDropdown = $("ul[aria-expanded=\"true\"]");
-SelenideElement detailedLink = $x("//a[contains(text(),'Подробнее')]");
+    private final SelenideElement  searchInput = $("input#search_vacancy");
+    private final SelenideElement specialisationField = $("[data-id='select_group_id']");
+    private final SelenideElement specializationDropdown = $("ul[aria-expanded=\"true\"]");
+    private final SelenideElement cityField = $("[data-id='select_city_id']");
+    private final SelenideElement searchButton = $("button#search_vacancy");
+    private final SelenideElement checkboxOnlyHotVacancies = $("input#filter_only_hot_");
+    private final SelenideElement сheckboxRemoteVacancies = $("input#filter_only_remote_");
+    private final SelenideElement locationField = $("[data-id='select_city_id']");
+    private final SelenideElement locationDropdown = $("ul[aria-expanded=\"true\"]");
+    private final SelenideElement detailedLink = $x("//a[contains(text(),'Подробнее')]");
 
 
     @Step("Проверяем открытие страницы с вакансиями")

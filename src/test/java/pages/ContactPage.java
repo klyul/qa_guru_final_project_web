@@ -13,10 +13,9 @@ import static com.codeborne.selenide.Selenide.$x;
 import static helpers.GeneralMethods.setBannerCookie;
 
 public class ContactPage {
-    SelenideElement branches = $("div.visible-lg div.block-gray");
-    SelenideElement officeDescription = $("div.tab-pane.active h3");
-    SelenideElement submitButton = $("#submit_your_app_open");
-
+    private final SelenideElement branches = $("div.visible-lg div.block-gray");
+    private final SelenideElement officeDescription = $("div.tab-pane.active h3");
+    private final SelenideElement submitButton = $("#submit_your_app_open");
 
 
     @Step("Проверяем открытие страницы с контактами")

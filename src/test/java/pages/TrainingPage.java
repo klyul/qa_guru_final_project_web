@@ -10,12 +10,10 @@ import static helpers.GeneralMethods.setBannerCookie;
 
 public class TrainingPage {
 
-    SelenideElement trainingPageHeading = $("h1.f__h1");
-    SelenideElement ourSchools = $x("//h2[contains(text(),'Наши школы')]");
-    SelenideElement schoolDescription = $(".school_description");
-    SelenideElement blockEntryInstruction = $("div.popast_text");
-
-
+    private final SelenideElement trainingPageHeading = $("h1.f__h1");
+    private final SelenideElement ourSchools = $x("//h2[contains(text(),'Наши школы')]");
+    private final SelenideElement schoolDescription = $(".school_description");
+    private final SelenideElement blockEntryInstruction = $("div.popast_text");
 
 
     @Step("Проверяем открытие страницы с обучением")

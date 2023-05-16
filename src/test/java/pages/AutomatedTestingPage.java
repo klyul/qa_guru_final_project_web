@@ -11,10 +11,10 @@ import static com.codeborne.selenide.Selenide.open;
 import static helpers.GeneralMethods.setBannerCookie;
 
 public class AutomatedTestingPage {
-    SelenideElement headTittle = $("h2.head-title_text");
-    SelenideElement solutionTittle = $("h3.head-title_text");
-    SelenideElement advantagesTittle = $("div.blue-st h3");
-    SelenideElement contactUsButton = $("button#button_open_stay");
+    private final SelenideElement headTittle = $("h2.head-title_text");
+    private final SelenideElement solutionTittle = $("h3.head-title_text");
+    private final SelenideElement advantagesTittle = $("div.blue-st h3");
+    private final SelenideElement contactUsButton = $("button#button_open_stay");
 
 
     @Step("Проверяем открытие страницы с автоматизированным тестированием")
