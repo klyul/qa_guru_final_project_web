@@ -3,7 +3,6 @@ package pages;
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
 
-import static com.codeborne.selenide.Condition.interactable;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.*;
 import static helpers.GeneralMethods.setBannerCookie;
@@ -17,10 +16,11 @@ public class TrainingPage {
 
 
     @Step("Проверяем открытие страницы с обучением")
-    public void openPage(){
+    public void openPage() {
         setBannerCookie();
         open("/?route=information/training");
     }
+
     @Step("Проверяем главные элементы страницы с обучением")
     public void mainElementsShouldBePresent() {
         trainingPageHeading.shouldBe(visible);

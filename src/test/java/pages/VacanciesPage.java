@@ -1,10 +1,8 @@
 package pages;
 
 import com.codeborne.selenide.CollectionCondition;
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
-import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
@@ -12,12 +10,11 @@ import static com.codeborne.selenide.Condition.interactable;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 import static helpers.GeneralMethods.setBannerCookie;
-import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class VacanciesPage {
 
-    private final SelenideElement  searchInput = $("input#search_vacancy");
+    private final SelenideElement searchInput = $("input#search_vacancy");
     private final SelenideElement specialisationField = $("[data-id='select_group_id']");
     private final SelenideElement specializationDropdown = $("ul[aria-expanded=\"true\"]");
     private final SelenideElement cityField = $("[data-id='select_city_id']");
@@ -30,7 +27,7 @@ public class VacanciesPage {
 
 
     @Step("Проверяем открытие страницы с вакансиями")
-    public void openPage(){
+    public void openPage() {
         setBannerCookie();
         open("/index.php?route=information/vacancies#select_form");
     }

@@ -6,8 +6,6 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.util.Map;
 
-import static helpers.TestLoggerHelper.logAndPassSystemProperty;
-
 public class OwnerWebConfigRunner extends WebConfigRunner {
 
     static DefaultWebConfig config = ConfigFactory.create(DefaultWebConfig.class, System.getProperties());

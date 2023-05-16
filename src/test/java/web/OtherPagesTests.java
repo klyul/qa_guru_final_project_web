@@ -1,15 +1,11 @@
 package web;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.AutomatedTestingPage;
 import pages.ContactPage;
 import pages.TrainingPage;
-
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class OtherPagesTests extends TestBaseBint {
     TrainingPage trainingPage = new TrainingPage();
@@ -42,6 +38,7 @@ public class OtherPagesTests extends TestBaseBint {
         automatedTestingPage.openPage();
         automatedTestingPage.mainElementsShouldBePresent();
     }
+
     @Test
     @Tag("bell")
     @DisplayName("Проверяем что по клику на конкретный город открывается конкретный филиал")

@@ -1,6 +1,5 @@
 package web;
 
-import com.codeborne.selenide.Condition;
 import components.ContactUsForm;
 import components.TopMenu;
 import org.junit.jupiter.api.*;
@@ -9,7 +8,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 import pages.MainPage;
 import pages.SearchResultsPage;
 
-import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.Selenide.closeWindow;
 
 public class MainPageTests extends TestBaseBint {
 
@@ -45,7 +44,7 @@ public class MainPageTests extends TestBaseBint {
     @Tag("bell")
     @DisplayName("Проверяем отсутствие PHP warnings на странице результатов поиска")
     @ParameterizedTest
-    @ValueSource(strings = {"акция","услуг", "проверки", "команде", "тестирования"})
+    @ValueSource(strings = {"акция", "услуг", "проверки", "команде", "тестирования"})
     void bellSearchPhpWarningsTest(String value) {
 
         mainPage.openPage();

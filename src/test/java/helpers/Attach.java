@@ -9,13 +9,9 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 
-import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.Selenide.sessionId;
 import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 import static org.openqa.selenium.logging.LogType.BROWSER;
-
-import com.codeborne.selenide.WebDriverRunner;
-import org.junit.jupiter.api.Test;
-import org.openqa.selenium.Cookie;
 
 public class Attach {
     @Attachment(value = "{attachName}", type = "image/png")

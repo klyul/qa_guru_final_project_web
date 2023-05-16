@@ -1,9 +1,7 @@
 package web;
 
 import config.OwnerWebConfigRunner;
-import config.WebConfigRunner;
 import helpers.Attach;
-import helpers.TestLoggerHelper;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.slf4j.Logger;
@@ -11,10 +9,12 @@ import org.slf4j.LoggerFactory;
 
 public class TestBaseBint {
     static final Logger logger = LoggerFactory.getLogger(TestBaseBint.class);
+
     @BeforeAll
     static void setUp() {
         new OwnerWebConfigRunner().runWebConfig();
     }
+
     protected void logException(Exception e) {
         logger.info(e.getMessage());
         e.printStackTrace();
