@@ -85,6 +85,18 @@
 <img src="images/Allure_TODash.png">
 </p>
 
+### Список тестов с результатами прогона
+
+<p align="center">
+  <img src="images/allure-testops-testcases.png" alt="dashboard" width="900">
+</p>
+
+### Тест-кейсы
+
+<p align="center">
+  <img src="images/allure-testops-results.png" alt="testcase" width="900">
+</p>
+
 
 
 ## Интеграция с Jira
