@@ -71,7 +71,7 @@
 </p>
 
 
-## Отчёт в Telegram 
+## <img src="images/Telegram.svg" width="50" height="50"> Отчёт в Telegram 
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
 
 <p align="center">
