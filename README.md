@@ -99,8 +99,7 @@
 
 
 
-## Интеграция с Jira
-## <a id="jira"></a> <img width="30" alt="Jira" src="images/jira-logo.svg"> Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-703)
+## <img width="30" alt="Jira" src="images/jira-logo.svg"> Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-703)
 :information_source: Настроена интеграция Allure TestOps с Jira.
 Тест-кейсы и результаты прогонов можно прикреплять к необходимым задачам.
 
