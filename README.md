@@ -77,7 +77,7 @@
 <p align="center">
 <img src="images/tgbot.png">
 
-##  <img src="images/Allure_TO.svg"> width="50" height="50"
+##  <img src="images/Allure_TO.svg"> 
 ##  Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/2279/launches)
 
 ### Основной дашборд
@@ -100,4 +100,8 @@
 
 
 ## Интеграция с Jira
+## <a id="jira"></a> <img width="30" alt="Jira" src="images/jira-logo.svg"> Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-703)
+:information_source: Настроена интеграция Allure TestOps с Jira.
+Тест-кейсы и результаты прогонов можно прикреплять к необходимым задачам.
 
+<img alt="Jira" src="images/Jira.png">
