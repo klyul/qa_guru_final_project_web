@@ -77,8 +77,8 @@
 <p align="center">
 <img src="images/tgbot.png">
 
-## <img width="4%" Интеграция с Allure TestOps
-## <img src="images/logo/Allure_TO.svg"> Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/2279/launches)
+##  Интеграция с Allure TestOps
+## <img src="images/Allure_TO.svg"> Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/2279/launches)
 
 ### Основной дашборд
 <p align="center">
