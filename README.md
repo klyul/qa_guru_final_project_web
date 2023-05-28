@@ -1,7 +1,7 @@
 # Проект по автоматизации тестирования для Bell Integrator
 <a target="_blank" href="https://bellintegrator.ru/">Cайт Bell Integrator</a>
 
-<image src=https://bellintegrator.ru/catalog/view/theme/bellOne/image/logo_BellIntegrator_rus.svg>
+<image src="https://bellintegrator.ru/catalog/view/theme/bellOne/image/logo_BellIntegrator_rus.svg">
 
 ## :pushpin: <a id="list"></a> Содержание:
 
@@ -37,7 +37,7 @@
 
 
 
-## :scroll: Реализованные проверки
+## :scroll: <a id="cases"></a> Реализованные проверки
 
 * Проверка отображения и элементов формы обратной связи
 * Проверка отсутствия нежелательных warnings на странице поиска
@@ -45,12 +45,12 @@
 * Проверка работы фильтров на странице вакансий и соответствия отфильтрованных вакансий заданному фильтру
 * Проверка работы меню филиалов на странице контактов
 
-## :computer: Запуск из терминала
+## :computer: <a id="console"></a> Запуск из терминала
 ```bash
  gradle clean autotest_bell_remote
 ```
 
-## <a href="https://www.jenkins.io/"><img src="images/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a> Сборка в [Jenkins](https://jenkins.autotests.cloud/job/018_klyul_Diplom_Web/)
+## <a href="https://www.jenkins.io/" id="jenkins"><img src="images/Jenkins.svg" width="50" height="50"  alt="jenkins" /> </a> Сборка в [Jenkins](https://jenkins.autotests.cloud/job/018_klyul_Diplom_Web/)
 
 Для запуска сборки необходимо перейти в раздел <code><strong>*Собрать с параметрами*</strong></code> и нажать кнопку <code><strong>*Собрать*</strong></code>.
 <a href="https://jenkins.autotests.cloud/job/018_klyul_Diplom_Web/#"><img src="images/jenkins.png" alt="jenkins"/></a>
@@ -58,7 +58,7 @@
 </p>
 
 
-## <a href="https://github.com/allure-framework/allure2"><img src="images/Allure.svg" width="50" height="50"  alt="Allure"/></a> Allure отчеты
+## <a href="https://github.com/allure-framework/allure2" id="allure"><img src="images/Allure.svg" width="50" height="50"  alt="Allure"  /></a> Allure отчеты
 :information_source: По итогам сборки в Jenkins собирается отчет в Allure Report
 > Для просмотра необходимо залогиниться в Jenkins
 * Подключено добавление в отчет:
@@ -72,13 +72,13 @@
 </p>
 
 
-## <img src="images/Telegram.svg" width="50" height="50"> Отчёт в Telegram 
+## <a id="telegram"><img src="images/Telegram.svg" width="50" height="50" /></a> Отчёт в Telegram 
 
 После завершения сборки сообщение с основными результатами прогона тестов отправляется через созданный бот в выбранный телеграм-канал
 <p align="center">
 <img src="images/tgbot.png">
 
-##  <img src="images/Allure_TO.svg" width="50" height="50"> Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/2279/launches)
+##  <a id="testops"><img src="images/Allure_TO.svg" width="50" height="50" /></a> Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/2279/launches)
 
 ### Основной дашборд
 <p align="center">
@@ -88,19 +88,19 @@
 ### Список тестов с результатами прогона
 
 <p align="center">
-  <img src="images/allure-testops-testcases.png" alt="dashboard" width="900">
+  <img src="images/allure-testops-testcases.png" alt="dashboard" width="900" />
 </p>
 
 ### Тест-кейсы
 Тест-кейсы, автоматические созданные в Allure Testops, на основе разработанных автотестов 
 <p align="center">
-  <img src="images/allure-testops-results.png" alt="testcase" width="900">
+  <img src="images/allure-testops-results.png" alt="testcase" width="900" />
 </p>
 
 
 
-## <img width="30" alt="Jira" src="images/jira-logo.svg"> Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-703)
+## <a id="jira"><img width="30" alt="Jira" src="images/jira-logo.svg" /></a> Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-703)
 :information_source: Настроена интеграция Allure TestOps с Jira.
 Тест-кейсы и результаты прогонов можно прикреплять к необходимым задачам.
 
-<img alt="Jira" src="images/Jira.png">
+<img alt="Jira" src="images/Jira.png" />
