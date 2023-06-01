@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Condition.interactable;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$x;
 
-public class TopMenu {
+public class TopMenuComponent {
     private final SelenideElement careerHeader = $x("//span[@class='top-menu_item_title']/span[contains(text(),'Карьера')]");
     private final SelenideElement menuItemJobs = $x("//li/a[contains(text(),'Вакансии')]");
     private final SelenideElement menuItemRecruiters = $x("//li/a[contains(text(),'Обучение')]");

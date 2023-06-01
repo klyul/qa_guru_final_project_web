@@ -38,7 +38,6 @@ dependencies {
             "io.qameta.allure:allure-rest-assured:$allureVersion",
             "io.qameta.allure:allure-selenide:$allureVersion",
             "org.assertj:assertj-core:3.24.2",
-            "com.fasterxml.jackson.core:jackson-databind:2.14.2",
             "org.junit.jupiter:junit-jupiter:5.9.2",
             "org.aeonbits.owner:owner:1.0.12",
             "io.rest-assured:rest-assured:$restAssuredVersion",
@@ -52,83 +51,7 @@ test {
     useJUnitPlatform()
     systemProperties(System.getProperties())
 }
-/*
-task autotest_dry_run(type: Test) {
 
-    useJUnitPlatform {
-        includeTags("dry")
-    }
-
-    // Setting system property for dry run test
-    System.setProperty("dryRun","yes")
-
-    systemProperties(System.getProperties())
-
-    printSystemProperties()
-
-}
-
-task autotest_simple_local(type: Test) {
-
-    System.setProperty("env","local")
-
-    useJUnitPlatform {
-        includeTags("simple_tests")
-    }
-
-    systemProperties(System.getProperties())
-
-
-task autotest_simple_api(type: Test) {
-
-    System.setProperty("env","local")
-
-    useJUnitPlatform {
-        includeTags("simple_api")
-    }
-
-    systemProperties(System.getProperties())
-
-}
-
-task autotest_simple_sampler(type: Test) {
-
-    System.setProperty("env","local")
-
-    useJUnitPlatform {
-        includeTags("simple_sampler")
-    }
-
-    systemProperties(System.getProperties())
-
-}
-
-task autotest_simple_remote(type: Test) {
-
-    useJUnitPlatform {
-        includeTags("simple_sampler")
-    }
-
-    System.setProperty("env","remote")
-
-    System.setProperty("remoteURL", "https://user1:1234@selenoid.autotests.cloud/wd/hub")
-
-    systemProperties(System.getProperties())
-
-}
-
-task autotest_bell_local(type: Test) {
-
-    System.setProperty("env","local")
-
-    useJUnitPlatform {
-        includeTags("bell")
-    }
-
-    systemProperties(System.getProperties())
-
-}
-*/
 task autotest_bell_remote(type: Test) {
 
     useJUnitPlatform {
@@ -137,20 +60,8 @@ task autotest_bell_remote(type: Test) {
 
     System.setProperty("env","remote")
 
-    System.setProperty("remoteURL", "https://user1:1234@selenoid.autotests.cloud/wd/hub")
-
     systemProperties(System.getProperties())
 
 }
 
-def printSystemProperties() {
-    // println(System.getProperties())
-
-    println("Property dryRun: " + System.getProperty("dryRun"))
-    println("Property os.name: " + System.getProperty("os.name"))
-    println("Property java.vm.version: " + System.getProperty("java.vm.version"))
-    println("Property browser: " + System.getProperty("browser"))
-    println("Property env: " + System.getProperty("env"))
-
-}
 

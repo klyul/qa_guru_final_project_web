@@ -1,7 +1,7 @@
 package web;
 
-import components.ContactUsForm;
-import components.TopMenu;
+import components.ContactUsFormComponent;
+import components.TopMenuComponent;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
@@ -13,8 +13,8 @@ import static com.codeborne.selenide.Selenide.closeWindow;
 public class MainPageTests extends TestBaseBint {
 
     MainPage mainPage = new MainPage();
-    TopMenu topMenu = new TopMenu();
-    ContactUsForm contactUsForm = new ContactUsForm();
+    TopMenuComponent topMenuComponent = new TopMenuComponent();
+    ContactUsFormComponent contactUsFormComponent = new ContactUsFormComponent();
     SearchResultsPage searchResultsPage = new SearchResultsPage();
 
 
@@ -24,7 +24,7 @@ public class MainPageTests extends TestBaseBint {
     void menuTest() {
         mainPage.openPage();
         mainPage.clickTopMenuButton();
-        topMenu.menuItemsShouldBePresent();
+        topMenuComponent.menuItemsShouldBePresent();
     }
 
     @Test
@@ -33,12 +33,7 @@ public class MainPageTests extends TestBaseBint {
     void feedbackFormTest01() {
         mainPage.openPage();
         mainPage.clickConntactUsButton();
-        contactUsForm.checkRequiredFormElements();
-    }
-
-    @AfterEach
-    void tearDown() {
-        closeWindow();
+        contactUsFormComponent.checkRequiredFormElements();
     }
 
     @Tag("bell")
@@ -52,5 +47,10 @@ public class MainPageTests extends TestBaseBint {
         searchResultsPage.shouldHaveSearchTitles(value);
         Assertions.assertEquals(0, searchResultsPage.numberOfPhpWarnings(), "Не должно быть PHP warnings");
 
+    }
+
+    @AfterEach
+    void tearDown() {
+        closeWindow();
     }
 }
