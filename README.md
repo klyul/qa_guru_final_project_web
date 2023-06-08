@@ -59,7 +59,7 @@
 
 
 ## <a href="https://github.com/allure-framework/allure2" id="allure"><img src="images/Allure.svg" width="50" height="50"  alt="Allure"  /></a> Allure отчеты
-:information_source: По итогам сборки в Jenkins собирается отчет в Allure Report
+:information_source: По итогам сборки в Jenkins собирается [отчет в Allure Report](https://jenkins.autotests.cloud/job/018_klyul_Diplom_Web/allure/)
 > Для просмотра необходимо залогиниться в Jenkins
 * Подключено добавление в отчет:
     - скриншота финального состояния
